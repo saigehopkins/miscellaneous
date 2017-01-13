@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>misc experiment</title>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script>
+      $(document).ready(function(){
+
+        $(".eyebrow").click(function(){
+          $(".eyebrow").toggleClass("leaf");
+        })
+
+        $(".klassen").click(function(){
+          $(".klassen").toggleClass("bigtwo");
+        })
+
+        $(".green").click(function(){
+          $(".green").toggleClass("print");
+        })
+
+        $(".ireland").click(function(){
+          $(".ireland").toggleClass("imagesdown");
+        })
+
+
+      });
+    </script>
+    <style>
+
+
+    .green {
+      position: absolute;
+      left:500px;
+      width:20%;
+      height:20%;
+      background-image: url("https://scontent.xx.fbcdn.net/v/t1.0-9/14721558_1224980687573139_3115628290535562856_n.jpg?oh=e480234cedd34b2869a57eb6d3be2ecf&oe=58D79789");
+      -webkit-transition: width 2s, height 2s, background-image 4s;
+          }
+
+      .eyebrow {
+            position: absolute;
+            width:20%;
+            height:20%;
+            background-size: 105%;
+            background-image: url("https://scontent.xx.fbcdn.net/v/t31.0-8/13131378_1070169103054299_2379054614010184333_o.jpg?oh=01d2f90a2aad88a20f37c9e5f3ec5bd6&oe=59106030");
+            -webkit-transition: width 2s, height 2s;
+                }
+
+            .leaf {
+            width:50%;
+            height:50%;
+                }
+
+
+    .print {
+      width:400px;
+      height:400px;
+      background-image: url("https://scontent.xx.fbcdn.net/v/t1.0-9/14721558_1224980687573139_3115628290535562856_n.jpg?oh=e480234cedd34b2869a57eb6d3be2ecf&oe=58D79789");
+          }
+
+    h1 {
+      font-family: sans-serif;
+      font-size: 15px;
+      top: 20px;
+      left: 150px;
+      position: absolute;
+    }
+
+    .ireland {
+      position: absolute;
+      background-image: url("https://scontent.xx.fbcdn.net/v/t31.0-8/14712768_1224980490906492_3928001739920237359_o.jpg?oh=bb14d9f50e1600e5b3b9cb32f520141f&oe=5922C20D");
+      height: 50%;
+      width: 50%;
+      top: 100px;
+      left: 200px;
+      -webkit-transition: top 2s, background-image 2s;
+    }
+
+    .imagesdown {
+      top: 150px;
+    }
+
+
+    .klassen {
+      background-image: url("https://scontent.xx.fbcdn.net/v/t31.0-8/14714842_1224980767573131_4072613198904790932_o.jpg?oh=7e2f3b6b4c88d0226bd8eb481e4c8ff8&oe=59171935");
+      position: absolute;
+      top: 300px;
+      height: 100px;
+      width: 70px;
+      left: 100px;
+      -webkit-transition: left 2s, top 2s, width 2s, height 2s;
+    }
+    .bigtwo {
+      width: 90px;
+      height: 150px;
+      top: 200px;
+    }
+
+
+    </style>
+  </head>
+  <body>
+
+
+    <h1> Design Work</h1>
+    <div class="blank"></div>
+    <div class="eyebrow"></div>
+    <div class="green"></div>
+    <div class="ireland"></div>
+    <div class="klassen"></div>
+
+
+  </body>
+</html>
