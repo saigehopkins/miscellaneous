@@ -23,15 +23,49 @@
           $(".ireland").toggleClass("imagesdown");
         })
 
+        $(".fox").click(function(){
+          $(".fox").toggleClass("fox2");
+        })
+
 
       });
     </script>
     <style>
 
+    body {
+      background-image: url(http://wisconsinwatch.org/wp-content/uploads/2013/04/Lake-Monona-1170x877.jpg);
+      background-size: 100%;
+    }
+
+    .fox {
+      background-image: url(http://1.bp.blogspot.com/-lLPY2tqiWh4/VC5dstP-JdI/AAAAAAAABa8/1QpqpDVzFik/s1600/WSBC0006.JPG);
+      position: absolute;
+      top: 250px;
+      height: 300px;
+      width: 300px;
+      left: 400px;
+      -webkit-transition: left 2s, top 2s, width 2s, height 2s;
+      background-size: 100%;
+
+    }
+
+    .fox2 {
+      background-image: url(http://imageshack.com/a/img923/1259/uI6dHa.png);
+      position: absolute;
+      top: 50px;
+      height: 600px;
+      width: 600px;
+      left: 400px;
+      background-size: 100%;
+      -webkit-transition: background-image 5s, height 4s, width 4s, top 4s;
+
+    }
+
 
     .green {
       position: absolute;
-      left:500px;
+      background-size: 100%;
+      left:800px;
       width:20%;
       height:20%;
       background-image: url("https://scontent.xx.fbcdn.net/v/t1.0-9/14721558_1224980687573139_3115628290535562856_n.jpg?oh=e480234cedd34b2869a57eb6d3be2ecf&oe=58D79789");
@@ -40,6 +74,7 @@
 
       .eyebrow {
             position: absolute;
+            background-size: 100%;
             width:20%;
             height:20%;
             background-size: 105%;
@@ -54,8 +89,10 @@
 
 
     .print {
+      left:800px;
+      background-size: 100%;
       width:400px;
-      height:400px;
+      height:330px;
       background-image: url("https://scontent.xx.fbcdn.net/v/t1.0-9/14721558_1224980687573139_3115628290535562856_n.jpg?oh=e480234cedd34b2869a57eb6d3be2ecf&oe=58D79789");
           }
 
@@ -69,6 +106,7 @@
 
     .ireland {
       position: absolute;
+      background-size: 100%;
       background-image: url("https://scontent.xx.fbcdn.net/v/t31.0-8/14712768_1224980490906492_3928001739920237359_o.jpg?oh=bb14d9f50e1600e5b3b9cb32f520141f&oe=5922C20D");
       height: 50%;
       width: 50%;
@@ -83,19 +121,21 @@
 
 
     .klassen {
+      background-size: 100%;
       background-image: url("https://scontent.xx.fbcdn.net/v/t31.0-8/14714842_1224980767573131_4072613198904790932_o.jpg?oh=7e2f3b6b4c88d0226bd8eb481e4c8ff8&oe=59171935");
       position: absolute;
       top: 300px;
-      height: 100px;
-      width: 70px;
+      height: 280px;
+      width: 65px;
       left: 100px;
       -webkit-transition: left 2s, top 2s, width 2s, height 2s;
     }
     .bigtwo {
       width: 90px;
-      height: 150px;
+      height: 67px;
       top: 200px;
     }
+
 
 
     </style>
@@ -109,6 +149,7 @@
     <div class="green"></div>
     <div class="ireland"></div>
     <div class="klassen"></div>
+    <div class="fox"></div>
 
 
   </body>
